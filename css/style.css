@@ -1,0 +1,427 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+/* <!-- ----------------- navbar ----------------- --> */
+
+.header {
+    background-color: transparent;
+}
+.navbar {
+    position: sticky;
+}
+.nav-link,
+.navbar-brand {
+    color: white !important;
+}
+.navbar .navbar-toggler-icon {
+    background-image: url(../images/toggler.svg);
+}
+
+.navbar-toggler {
+    background-color: #24262a;
+}
+
+.dropdown-contentt {
+    display: none;
+    position: absolute;
+    background-color: #0e0d0d;
+    color: #f7f9fb;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+  }
+  .nav-item-dropdown:hover .dropdown-contentt {
+    display: block;
+  }
+
+
+
+/* <!-- ----------------- navbar over----------------- --> */
+/* <!-- ----------------- image start ----------------- --> */
+
+.top-section {
+    background-image: url(../images/mark-2.jpg);
+    background-size: cover;
+    background-position: 50%;
+    padding-top: 250px;
+    padding-left: 110px;
+    min-height: 700px;
+    position: relative;
+    color: white;
+}
+.header-content h2 {
+    font-size: 65px;
+}
+.header-content .d-flex {
+    
+    margin-top: 20px;
+}
+.top-section .header-btn {
+    background-color: #0b36a8;
+    border: none;
+    color: white;
+    padding: 17px 40px 17px 40px;
+    border-radius: none;
+    font-size: 1rem;
+}
+
+.top-section .header-btnn {
+    background-color: transparent;
+    border: none;
+    color: white;
+    padding: 17px 40px 17px 40px;
+    border-radius: none;
+    font-size: 1rem;
+}
+.newheader {
+    background-color: #24262a;
+    position: absolute;
+}
+
+
+
+
+
+
+
+/* <!-- ----------------- image end ----------------- --> */
+/* <!-- ----------------- content start ----------------- --> */
+.container-year {
+    padding-top: 115px;
+    padding-bottom: 55px;
+    background-color: #f7f9fb;
+}
+.container-year .time {
+    color: #0b36a8;
+    font-weight: 500;
+    padding-bottom: 5px;
+}
+.time {
+    color: rgb(54, 54, 190);
+}
+
+/* <!-- ----------------- content over ----------------- -->
+
+<!-- ----------------- card start ----------------- --> */
+.container-diamond {
+    padding-top: 70px;
+}
+
+.container-diamond .container-diamond {
+    margin-bottom: 4rem;
+    text-align: center;
+}
+
+.container-diamond .row {
+    margin-bottom: 30px;
+}
+
+.container-diamond .heading-diamond {
+    margin-bottom: 20px;
+}
+.icon {
+    color: blue;
+}
+
+
+/* <!-- ----------------- card over ----------------- -->
+<!-- ----------------- image with content start ----------------- --> */
+.iamges .row {
+    background-color: #f7f9fb;
+}
+
+.iamges .icon-continer {
+    padding-top: 50px;
+}
+.image-content img {
+    margin-left: -5%;
+}
+
+
+/* <!-- ----------------- image with content end ----------------- -->
+        <!-- ----------------- CONTENT ----------------- --> */
+.container .delivery {
+    margin-top: 100px;
+}
+        
+
+
+ /* <!-- ----------------- CONTENT over ----------------- -->
+<!-- ----------------- hover image ----------------- --> */
+.hover-image-overflow {
+    overflow: hidden;
+}
+.image-hover-zoom {
+    height: auto;
+    overflow: hidden;
+}
+        
+.image-hover-zoom img {
+    margin: 0;
+    transition: .2s ease;
+}  
+        
+.image-hover-zoom:hover img {
+    transform: scale(1.1);
+}
+
+
+/* <!-- ----------------- hover image over ----------------- -->
+        <!-- ----------------- 6 card  ----------------- --> */
+.image-hover-zoomm {
+    height: auto;
+    overflow: hidden;
+}
+                
+.image-hover-zoomm img {
+    transition: .2s ease;
+}
+                
+.image-hover-zoomm:hover img {
+    transform: scale(1.1);
+}
+        
+
+.card-image img {
+    width: 100%;
+    height: 196.88px;
+}
+.card-image p {
+    padding-top: 10px;
+}
+.card-image {
+    text-align: center;
+}
+.card .icon {
+    font-weight: 600;
+    padding-bottom: 0%;
+}
+
+.card .card-title {
+    padding-top: 0%;
+}
+
+.card .card-bodys {
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 12%;
+}
+
+/* <!-- ----------------- 6 card over ----------------- --> */
+/* <!-- ----------------- profile content ----------------- --> */
+
+
+.container .text-few {
+margin-top: 60px;
+}
+ /* <!-- ----------------- profile content ----------------- --> */
+ /* <!-- ----------------- profile image----------------- --> */
+
+ .profile .row {
+    margin-bottom: 145px;
+}
+.cards {
+    display: flex;
+    align-items: flex-start;
+}
+
+/* <!-- ----------------- profile image over----------------- -->
+<!-- ----------------- collapse text----------------- --> */
+
+.collapse-text {
+    margin-bottom: 40px;
+}
+
+.collapse-text .car {
+    margin-bottom: 20px;
+}
+
+.collapse-text .car-header b {
+    font-size: 20px;
+}
+.car-header button{
+    white-space: normal;
+}
+.accordion .btn {
+    color: black;
+    font-style: bold;
+}
+
+/* <!-- ----------------- collapse text over----------------- -->
+<!-- ----------------- form start----------------- --> */
+.form-container {
+    background-color: #f7f9fb;
+    margin-bottom: 50px;
+}
+
+.form-container .form-text {
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+.form-control-submit-button {
+    display: inline-block;
+    width: 100%;
+    height: 3.25rem;
+    border: 1px solid #0b36a8;
+    border-radius: 32px;
+    background-color: #0b36a8;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 0.875rem;
+    line-height: 0;
+}
+
+/* <!-- ----------------- form end----------------- --> 
+<!-- ----------------- footer start----------------- -->  */
+
+
+
+
+.footerr {
+    background-color: #24262a;
+}
+.footer-icon {
+    color: rgb(213, 213, 236);
+}
+
+/* <!-- ----------------- footer end----------------- -->   */
+/* --------------------back to top button-------------------- */
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+  }
+  
+/* --------------------back to top button over-------------------- */
+
+
+
+
+/* <!-- ----------------- other end----------------- -->   */
+
+
+/* .image {
+    text-align: center;
+    position: relative;
+}
+
+.h1-large {
+    position: absolute;
+    margin-left: 20px;
+    margin-bottom: 40px;
+    top: 0%;
+    text-align: center;
+} 
+.heading {
+    text-align: center;
+}
+.text h2 {
+    color: #24262a;
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 2.5rem;
+} */
+/* <!-- ----------------- other end----------------- -->   */
+
+
+
+
+
+
+
+
+/* ----------------------MEDIA QUERY----------------- */
+
+@media (max-width: 575.98px) {
+    .cards {
+        display: block;
+        text-align: center;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .cards {
+        display: block;
+        text-align: center;
+    }
+}
+
+@media (min-width: 0px) and (max-width: 767px) {
+    .image-content img {
+        width: 100%;
+        height: 430px;
+        margin-left: 0%;
+    }
+}
+
+@media (min-width: 0px) and (max-width: 992.00px) {
+    .top-section {
+        /* justify-content: start; */
+        padding-top: 10%;
+    }
+    .header-content h2 {
+        font-size: 2.9rem;
+        text-align: start;
+    }
+    .header-content .header-con {
+        text-align: center;
+    }
+    .header-content .header-btn {
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 45px;
+        padding-bottom: 10px;
+        font-size: 1rem;
+    }
+    .header-content .header-btnn {
+        padding: 20px 15px 20px 15px;
+    }
+    .top-section {
+        padding-left: 0%;
+        padding-top: 25%;
+    }
+    
+    .container-diamond .heading-diamond {
+        margin-bottom: 10px;
+    }
+    .iamges .image-content {
+        margin-bottom: 50px;
+    }
+    .iamges .icon-container .icon-fafa {
+        width: 18%;
+        margin-right: 0.20rem;
+        margin-bottom: 0.10rem;
+        padding-top: 30px;
+    }
+    .card-image p {
+        margin-bottom: 60px;
+    }
+    .container-year .row-time {
+        padding-top: 35px;
+    }
+    .header-content .d-flex{
+        justify-content: center;
+    }
+    .container .delivery {
+        margin-top: 25px;
+    }
+    .hover-images .image-hover-zoom{
+        padding-top: 0rem;
+    }
+    .container .text-few {
+        margin-top: 1px;
+    }
+}
+
+@media (min-width: 1200px) {}
