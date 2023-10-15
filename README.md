@@ -1,5 +1,5 @@
 # mark-website
-Note :-> Created website using html5, css3, javascript
+Note :-> Created website using html5, css3, javascript, bootstrap
 
 1> Landing page
 ![1](https://github.com/DhruvitGopani0041/mark-website/assets/113504480/9179d88f-d7a3-4cac-8367-249857966481)
